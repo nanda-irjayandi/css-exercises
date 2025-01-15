@@ -1,0 +1,8 @@
+/* notice that descendant selector should be separated in white space */ 
+
+.container .text {
+   background-color: yellow;
+   font-size: 22px; 
+   text-align: center;
+   color: red; 
+}
