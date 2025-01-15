@@ -1,5 +1,7 @@
 {
-    "workbench.preferredLightColorTheme": "Better Selenized Light",
-    "workbench.preferredDarkColorTheme": "Better Selenized Dark",
-    "github.copilot.editor.enableAutoCompletions": false
+    "workbench.preferredLightColorTheme": "Dracula Theme Soft",
+    "workbench.preferredDarkColorTheme": "Dracula Theme",
+    "github.copilot.editor.enableAutoCompletions": false,
+    "search.defaultViewMode": "list",
+    "workbench.colorTheme": "Default Dark Modern"
 }
