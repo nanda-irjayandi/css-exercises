@@ -3,5 +3,6 @@
     "workbench.preferredDarkColorTheme": "Dracula Theme",
     "github.copilot.editor.enableAutoCompletions": false,
     "search.defaultViewMode": "list",
-    "workbench.colorTheme": "Default Dark Modern"
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.lineHeight": 1.5
 }
