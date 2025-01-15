@@ -1,4 +1,5 @@
 {
     "workbench.preferredLightColorTheme": "Better Selenized Light",
-    "workbench.preferredDarkColorTheme": "Better Selenized Dark"
+    "workbench.preferredDarkColorTheme": "Better Selenized Dark",
+    "github.copilot.editor.enableAutoCompletions": false
 }
