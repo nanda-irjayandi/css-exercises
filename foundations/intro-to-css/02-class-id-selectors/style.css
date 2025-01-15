@@ -1,4 +1,18 @@
-p {
-    background-color: #ff91a4;
+.odd {
+    background-color: rgba(255,145,164,1.00); 
     font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#num_two {
+    color: #26619c; 
+    font-size: 36px;
+}
+
+p.adjust-font-size {
+    font-size: 24px;
+}
+
+#num_four {
+    background-color: hsl(120, 100%, 75%);
+    font-weight: bold;
 }
