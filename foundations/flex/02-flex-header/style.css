@@ -1,6 +1,13 @@
 .header  {
-  font-family: monospace;
+  font-family: 'Courier New', Courier, monospace;
   background: papayawhip;
+  /* 1. declare flexbox first */
+  display: flex;
+  /* 3. arrange the group of items */
+  align-items: center;
+  justify-content: space-between;
+  /* 5. insert padding (inward unlike margin) */
+  padding: 8px;
 }
 
 .logo {
@@ -14,6 +21,12 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* 2. declare flexbox for the list */
+  display: flex;
+  /* 3. insert gap between items */
+  gap: 8px;
+  /* 4. override the default padding value */
+  padding: 0;
 }
 
 a {
