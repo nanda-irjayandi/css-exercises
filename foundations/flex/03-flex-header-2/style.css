@@ -12,6 +12,13 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /* 1. arrange all items into flexbox on the parent group */
+  display: flex;
+  /* 5. !important-step to distribute the children (left and right) use the following */
+  /* make sure to have the grouping division before applying this */
+  justify-content: space-between;
+  /* 6. detailing steps */
+  padding: 16px;
 }
 
 .profile-image {
@@ -45,4 +52,18 @@ a {
 
 ul {
   list-style-type: none;
+  /* 3. arrange list into flexbox */
+  display: flex;
+  /* 4. override the default margin and padding of UL */
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+/*2c. arrange the contents of the group into flex box */
+/* pay attention to the comma as OR operator */
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
