@@ -4,17 +4,28 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px; /* shorthand for top-bottom padding, left-right padding */
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  text-align: center;
+  /*text-align: center;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
