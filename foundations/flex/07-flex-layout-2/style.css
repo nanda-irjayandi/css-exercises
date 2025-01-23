@@ -28,8 +28,10 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex: 1;
+  flex: 1 1 auto;
   padding: 16px;
+  width: 200px;
+  height: 400px;
 }
 .content {
   display: flex;
@@ -38,4 +40,5 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  /*flex-direction: column;*/
 }
