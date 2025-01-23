@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* with footer can use margin 0 auto, but this is more neat */
+  justify-content: space-between;
 }
 
 img {
@@ -23,4 +27,62 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  /* it's always important to remind yourself about ul (and other list) default values */
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+
+  font-family: Helvetica, serif;
+  /*text-decoration: none;*/
+}
+
+li * {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: #6d6d6d;
+}
+
+a {
+  text-decoration: none;
+  /* this is possible but I am doing it on li recusrively  */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center; /* key syntax that centers all items */
+  gap: 14px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  /*margin-top: auto; !* key syntax that triggers footer to the bottom *!*/
+  background-color: #eeeeee;
+}
+
+
+.left-links, .right-links {
+  display: flex;
+  /*width: 24px;*/
+  /*flex: 1 1 25px;*/
+  /*flex: 1;*/
+  justify-content: space-between;
+  margin: 15px;
+}
+
+button {
+  height: 30px;
+  /*padding-top: 30px;*/
+  width: auto;
 }
